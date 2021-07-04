@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url('/images/header-bg.png');
+    margin-bottom: 150px;
+}
+.resumeDetails{
+    background-image: url('/images/dream-bg.png');
+    background-position: right;
+}
+    
+.resumeDetails, .banner{
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.biographyButton{
+    background-image: linear-gradient(45deg
+    , lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.resumeInformation p{
+    padding-right: 20%;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+}
+.armorsArea{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.armorsItems{
+    width: 30%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.armorsItems img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.armorsItems p{
+    text-align: justify;
+}
+.armors{
+    margin-bottom: 100px;
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
