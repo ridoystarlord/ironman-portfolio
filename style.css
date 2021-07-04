@@ -4,11 +4,11 @@ body{
     padding: 0;
 }
 .banner{
-    background-image: url('/images/header-bg.png');
+    background-image: url('images/header-bg.png');
     margin-bottom: 150px;
 }
 .resumeDetails{
-    background-image: url('/images/dream-bg.png');
+    background-image: url('images/dream-bg.png');
     background-position: right;
     margin-bottom: 150px;
 }
