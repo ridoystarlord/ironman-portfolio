@@ -10,6 +10,7 @@ body{
 .resumeDetails{
     background-image: url('/images/dream-bg.png');
     background-position: right;
+    margin-bottom: 150px;
 }
     
 .resumeDetails, .banner{
